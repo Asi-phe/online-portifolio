@@ -1,9 +1,4 @@
-h1,h2,h3,h4,h5,h6,{
-  font-family: 'Indie Flower', cursive;
-}
-.education{
-  font-family: 'Indie Flower', cursive;
-}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -75,6 +70,7 @@ h1,h2,h3,h4,h5,h6,{
   color: white;
 }
 
+
 .html {width: 90%; background-color: #3E4046;}
 .css {width: 80%; background-color: #4A4F5D;}
 .js {width: 65%; background-color: #737B90;}
@@ -86,7 +82,76 @@ h1,h2,h3,h4,h5,h6,{
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color:#140209;
+   background-color:#080707;
    color: white;
    text-align: center;
+}
+
+/*Styling Contact page*/
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 50%;
+    margin-top: 0;
+  }
+}
+div.text {
+  max-width:100px;
+  margin: auto;
+  border: 3px solid #4CAF50;
+}
+h1 {
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
