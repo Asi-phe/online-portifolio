@@ -27,8 +27,6 @@
 }
 
 /* Styling my home page*/
-}
-
 .container {
   position: relative;
   max-width: 800px;
@@ -45,4 +43,71 @@
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
+}
+h2{
+  text-align:center;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Styling education page*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {box-sizing: border-box}
+
+.acontainer {
+  width: 50%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 20%; background-color: #808080;}
+
+.container-fluid{
+
+}
+ div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
