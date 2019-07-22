@@ -60,7 +60,7 @@
 * {box-sizing: border-box}
 
 .container {
-  width: 100%;
+  width: 50%;
   background-color: #ddd;
 }
 /*Styling the Skills section*/
@@ -70,6 +70,7 @@
   padding-bottom: 10px;
   color: white;
 }
+
 
 
 .html {width: 90%; background-color: #3E4046;}
@@ -92,7 +93,7 @@
 body {
   font-family: 'Libre Baskerville', serif;
   font-size: 15px;
-}
+
 
 
 * {
@@ -155,12 +156,8 @@ div.text {
   margin: auto;
   border: 3px solid #4CAF50;
 }
-h1 {
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-}
-body {
-    
-}
+
+
 .img2 {
   float: right;
 }
@@ -169,10 +166,7 @@ body {
   clear: both;
   display: table;
 }
-h2{
-  font-family: 'Indie Flower', cursive;
-  font-size: '100px',
-}
+
 
 .icon-bar {
   position: fixed;
