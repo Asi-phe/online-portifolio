@@ -44,9 +44,11 @@
   width: 100%;
   padding: 20px;
 }
-h2{
-  text-align:center;
-  font-family: 'Indie Flower', cursive;
+
+body, html {
+    height:  100%;
+    margin:  0px auto;
+    padding: 0px auto;
 }
 
 /* Styling education page*/
@@ -110,10 +112,10 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  font-family:
+  text-color:black
 }
-body{
-  te
-}
-p{
-  text-color:black;
-}
+
+.wrapper {
+    height:     auto;       /* These two lines were the key. */
+    min-height: 100%
