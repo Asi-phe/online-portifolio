@@ -52,3 +52,11 @@ body{
     text-align: left;
   }
 }
+  h2 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align:center;
+}
+h1{
+   text-align:center;
+   font-family: 'Cutive Mono', monospace;
+}
