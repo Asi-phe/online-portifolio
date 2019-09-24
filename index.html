@@ -1,105 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>My online portifolio</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <!--JQuery cdn-->
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <!--BS Js-->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!--BS css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Font awesome-->
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<!--Nav bar-->
-
-	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/8bit-wonder" rel="stylesheet" type="text/css" />
-<body>
-      <header>
-
-      <h1 id="title">ASIPHE</h1>
-      <br>
-
-    </header>
-
-  <!-- Nav -->
-<div id="navbar">
-  <a class="active" href="javascript:void(0)">Home</a>
-  <a href="javascript:void(0)">About</a>
-  <a href="javascript:void(0)">Education</a>
-  <a href="javascript:void(0)">Work Experience</a>
-  <a href="javascript:void(0)">Skills and Abilities</a>
-  <a href="javascript:void(0)">Project</a>
-  <a href="javascript:void(0)">Contact</a>
-</div>
-  <!-- /Nav -->
-  
-
-    
 
 
-    <section class="home">
-    </section>
-    <div style="height: 5000px">
-        <!-- just to make scrolling effect possible -->
-			<h2 class="myH2">Asiphe Mazamisa</h2>
-			<p class="myP">I am a full Stack developer.</p>
-			<p class="myP"></a></p>
-			<p class="myP">I HOPE YOU FIND THIS USEFULL</p>
-			<p class="myP">Albi</p>
-				<p class="myP">
 
+
+  <!--Main Nav bar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-light  nav-sticky">
+<div class=container>
+
+
+  <a class="navbar-brand" href="home">HOME</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="about">ABOUT<span class="sr-only">(current)</span></a>
+
+     <li> <a class="nav-item nav-link" href="work experience">WORK EXPERINCE</a></li>
+     <li> <a class="nav-item nav-link" href="skills">SKILLS AND ABILITIES</a></li>
+     <li> <a class="nav-item nav-link" href="projects">PROJECTS</a></li>
+     <li> <a class="nav-item nav-link" href="">CONTACT</a></li>
      
-				
-		
-      </p>
-      
-
-            
-            
-          </p>
-      <h1 id=projects>Projects</h1>
-      <div class="clearfix">
-  <div class="img-container">
-  <img src="images/asiphewebsite.jpg" alt="mywebsite" style="width:100%">
-  </div>
-  <div class="img-container">
-  <img src="images/mygame1.jpg" alt="mygame" style="width:100%">
-  </div>
-  <div class="img-container">
-  <img src="images/asipheapp.jpeg" alt="myapp" style="width:100%">
-  </div>
-</div>
     </div>
+  </div>
+  </div>
+</nav>
 
-<!-- Jquery needed -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+<div class="bg"></div>
 
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
-   
-<script>
-window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
  
 
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+ 
+
+ 
+
+
 <script src="js/main.js"></script>
 </body>
 </html>
