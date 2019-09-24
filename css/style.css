@@ -1,109 +1,15 @@
-
-
-
-
-
-html,body {
+body, html {
   height: 100%;
-  margin: 0;
 }
-
-.full-height {
-  height: 100%;
-  background: black;
-}
-
-
-
-}
-.top-banner >div>div>div::nth-child(2){
-  text-align:center;
-}
-.top-banner > div >div >div ::{
-  text-align:right;
-}
-.nav-align{
-  justify-content:flex-end;
-}
-padding-left:25px !important;
-color:#eeeeee
-
-.jumbotron {
-  height:500px;
-  background-image:url(../images/asiphe.jpeg);
-}
-
-
-
-/*// Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) {
-  /*Selecting all the elements*/
-  .top-banner > div > div > div {
-  text-align:center !important;
-}
- }
-  .top-banner{
-    padding:
-  }
-  /*Main Nav*/
-  .navbar-brand{
-    color:#eeeeee
-    font-size: 30px;
-    letter-spacing:1.5px;
-
-  }
-  /*End*/
-
-/*// Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) {
-
-}
-
-/*// Large devices (desktops, 992px and up)*/
-@media (max-width: 992px) {
-
- }
-
-/*// Extra large devices (large desktops, 1200px and up)*/
-@media (max-width: 1200px) { 
-
- }
-
- .jumbotron{
-   background-color:black;
-   paddind-top:120px
-   paddind-buttom:120px;
-   color:white;
-   border-radius:0;
- }
- 
- }
-
- .card, .list-group,.list-group-flush
- {
-   border:none !important;
- }
- .list-group-item{
-   
- }
-/*Adding background images*/
- .bg { 
+.bg {
   /* The image used */
-  background-image: url("../images/bc.jpeg");
+  background-image: url("https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 
   /* Full height */
-  height: 50%; 
+  height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-
-@media screen and (max-width: 500px) { /* Specific to this particular image */
-  .bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
 }
