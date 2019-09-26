@@ -13,3 +13,9 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+ 
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
